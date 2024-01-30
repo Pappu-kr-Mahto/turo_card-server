@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-fc(3y)5d!1r98_+oo=f0kgcj(($lgb+8lonuwjf(guqxe2u3-9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["turo-card-server.onrender.com"]
 
 
 # Application definition
