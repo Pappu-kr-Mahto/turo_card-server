@@ -15,7 +15,7 @@ class TuroCards(models.Model):
     image=models.ImageField(upload_to="images",null=True)
     description=models.TextField()
     createdAt=models.DateTimeField(auto_now_add=True)
-    updatedAt=models.IntegerField(null=True)
+    # updatedAt=models.IntegerField(null=True)
     card_no=models.IntegerField()
     status=models.CharField(max_length=20,choices=Card_visibility)
     likes=models.TextField('[]',default=[])
