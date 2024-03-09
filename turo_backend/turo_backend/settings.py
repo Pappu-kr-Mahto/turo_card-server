@@ -98,7 +98,8 @@ WSGI_APPLICATION = 'turo_backend.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(
         # Feel free to alter this value to suit your needs.
-        default='postgres://pappu:Xn5eskIvkl2bFW06wHYq3VfemPpgtNPa@dpg-cmseirv109ks73duvidg-a.oregon-postgres.render.com/turo_card_db',
+        # default='postgres://pappu:Xn5eskIvkl2bFW06wHYq3VfemPpgtNPa@dpg-cmseirv109ks73duvidg-a.oregon-postgres.render.com/turo_card_db',
+        default='postgres://turo_cards_db_user:oyPzDTdpXb4FrptksC3RdHEsueX047NG@dpg-cnldk921hbls7393rcn0-a.oregon-postgres.render.com/turo_cards_db',
         conn_max_age=600
     )
 }
